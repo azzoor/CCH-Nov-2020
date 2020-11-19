@@ -11,21 +11,23 @@
 		54F3BFB92564BF3A0001F212 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F3BFB82564BF3A0001F212 /* SceneDelegate.swift */; };
 		54F3BFBB2564BF3A0001F212 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F3BFBA2564BF3A0001F212 /* ViewController.swift */; };
 		54F3BFBE2564BF3A0001F212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F3BFBC2564BF3A0001F212 /* Main.storyboard */; };
-		54F3BFC12564BF3A0001F212 /* MoreContentDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54F3BFBF2564BF3A0001F212 /* MoreContentDemo.xcdatamodeld */; };
 		54F3BFC32564BF3B0001F212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F3BFC22564BF3B0001F212 /* Assets.xcassets */; };
 		54F3BFC62564BF3B0001F212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F3BFC42564BF3B0001F212 /* LaunchScreen.storyboard */; };
+		54F3BFCF2564C3D10001F212 /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F3BFCE2564C3D10001F212 /* MyCustomCell.swift */; };
+		54F3BFD22564C3DE0001F212 /* MyCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54F3BFD12564C3DE0001F212 /* MyCustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		54F3BFB32564BF3A0001F212 /* MoreContentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoreContentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F3BFB32564BF3A0001F212 /* ABC123.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABC123.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F3BFB62564BF3A0001F212 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54F3BFB82564BF3A0001F212 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		54F3BFBA2564BF3A0001F212 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		54F3BFBD2564BF3A0001F212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		54F3BFC02564BF3A0001F212 /* MoreContentDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoreContentDemo.xcdatamodel; sourceTree = "<group>"; };
 		54F3BFC22564BF3B0001F212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54F3BFC52564BF3B0001F212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54F3BFC72564BF3B0001F212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F3BFCE2564C3D10001F212 /* MyCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
+		54F3BFD12564C3DE0001F212 /* MyCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +52,7 @@
 		54F3BFB42564BF3A0001F212 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54F3BFB32564BF3A0001F212 /* MoreContentDemo.app */,
+				54F3BFB32564BF3A0001F212 /* ABC123.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,11 +63,12 @@
 				54F3BFB62564BF3A0001F212 /* AppDelegate.swift */,
 				54F3BFB82564BF3A0001F212 /* SceneDelegate.swift */,
 				54F3BFBA2564BF3A0001F212 /* ViewController.swift */,
+				54F3BFCE2564C3D10001F212 /* MyCustomCell.swift */,
+				54F3BFD12564C3DE0001F212 /* MyCustomCell.xib */,
 				54F3BFBC2564BF3A0001F212 /* Main.storyboard */,
 				54F3BFC22564BF3B0001F212 /* Assets.xcassets */,
 				54F3BFC42564BF3B0001F212 /* LaunchScreen.storyboard */,
 				54F3BFC72564BF3B0001F212 /* Info.plist */,
-				54F3BFBF2564BF3A0001F212 /* MoreContentDemo.xcdatamodeld */,
 			);
 			path = MoreContentDemo;
 			sourceTree = "<group>";
@@ -87,7 +90,7 @@
 			);
 			name = MoreContentDemo;
 			productName = MoreContentDemo;
-			productReference = 54F3BFB32564BF3A0001F212 /* MoreContentDemo.app */;
+			productReference = 54F3BFB32564BF3A0001F212 /* ABC123.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,6 +132,7 @@
 			files = (
 				54F3BFC62564BF3B0001F212 /* LaunchScreen.storyboard in Resources */,
 				54F3BFC32564BF3B0001F212 /* Assets.xcassets in Resources */,
+				54F3BFD22564C3DE0001F212 /* MyCustomCell.xib in Resources */,
 				54F3BFBE2564BF3A0001F212 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,9 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				54F3BFBB2564BF3A0001F212 /* ViewController.swift in Sources */,
+				54F3BFCF2564C3D10001F212 /* MyCustomCell.swift in Sources */,
 				54F3BFB72564BF3A0001F212 /* AppDelegate.swift in Sources */,
 				54F3BFB92564BF3A0001F212 /* SceneDelegate.swift in Sources */,
-				54F3BFC12564BF3A0001F212 /* MoreContentDemo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,12 +297,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SQ5FT9X546;
 				INFOPLIST_FILE = MoreContentDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bronron.MoreContentDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ABC123;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -312,12 +317,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SQ5FT9X546;
 				INFOPLIST_FILE = MoreContentDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bronron.MoreContentDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ABC123;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -345,19 +351,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		54F3BFBF2564BF3A0001F212 /* MoreContentDemo.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				54F3BFC02564BF3A0001F212 /* MoreContentDemo.xcdatamodel */,
-			);
-			currentVersion = 54F3BFC02564BF3A0001F212 /* MoreContentDemo.xcdatamodel */;
-			path = MoreContentDemo.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 54F3BFAB2564BF3A0001F212 /* Project object */;
 }
